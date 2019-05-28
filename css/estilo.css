@@ -1,0 +1,40 @@
+
+span{
+    text-transform: uppercase;
+}
+
+
+.campo-dig{
+    font-size: 15px;
+    border: 2px solid black;
+    margin: 5px;
+}
+
+input{
+    box-sizing: border-box;
+    border: 2px solid black;
+}
+
+.texto_principal{
+    text-align: center;
+}
+
+
+.conteudo{
+    display: none;
+}
+
+#img_pok_front,#img_pok_back{
+    width: 120px;
+    height: 120px;
+    border: hidden;
+}
+
+#erro{
+    display: none;
+    color: red;
+}
+
+#spinner{
+    display: none;
+}

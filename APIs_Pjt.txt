@@ -1,0 +1,16 @@
+API KEY Gerada: 5284343519f54738f3c208bf5ac33bc7  (APPID)
+
+API para buscar clima da cidade: api.openweathermap.org/data/2.5/weather?q={city name}
+	Para isso deve ser utilizada a API chamada “By city name”.
+Ex.: https://api.openweathermap.org/data/2.5/weather?q=NOME_DA_CIDADE&appid=APPID
+ou https://api.openweathermap.org/data/2.5/weather?q=Campinas&appid=5445a9ae08df1a3117ae57894fa7cdadah
+
+
+
+
+Para isso pode-se fazer a seguinte requisição como no exemplo:
+https://pokeapi.co/api/v2/type/<NOME_DO_TIPO>
+ou
+https://pokeapi.co/api/v2/type/electric
+No qual <NOME_DO_TIPO> deve ser substituído pelo tipo de elemento desejado (ice, water, grass, ground, etc)
+O retorno dessa requisição também será um objeto do tipo JSON, sendo que um único atributo é de interesse para esse desafio, que se trata do array de elementos chamado “pokemon”;
