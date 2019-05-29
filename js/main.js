@@ -93,11 +93,9 @@ function retornoPokemon(data) {
 
     $.get(pokemon[numPokemon].pokemon.url, retornoImagemPokemon)
     .fail(function(){
-        $("#erro").show();
+        $("#erro_pok").show();
         setTimeout(function(){
-
-            ///COLOCAR ERRO DO POKEMON
-            $("#erro").toggle();
+            $("#erro_pok").toggle();
         },5000);
     })
     .always(function(){

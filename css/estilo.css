@@ -1,13 +1,5 @@
-
 span{
     text-transform: uppercase;
-}
-
-
-.campo-dig{
-    font-size: 15px;
-    border: 2px solid black;
-    margin: 5px;
 }
 
 input{
@@ -24,17 +16,37 @@ input{
     display: none;
 }
 
+.mostra_erro{
+    display: none;
+}
+
+.img_pokebola{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 64px;
+}
+
+.img_logo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 64px;
+}
+
 #img_pok_front,#img_pok_back{
-    width: 120px;
-    height: 120px;
+    width: 250px;
+    height: 250px;
     border: hidden;
 }
 
-#erro{
+#erro,#erro_pok{
     display: none;
     color: red;
 }
 
 #spinner{
     display: none;
+    
 }
+

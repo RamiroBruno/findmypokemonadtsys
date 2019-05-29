@@ -10,26 +10,15 @@
 </head>
 
 <body>
-
+	
 	<nav>
 		<div class="nav-wrapper red accent-4">
-			<a href="#" class="brand-logo">Logo</a>
+				<img src="img/pokebola.png" class="img_pokebola"> <img src="img/pokemon_logo.png" class="img_logo">
 		</div>
 	</nav>
-	
+
 
 	<div class="container">
-			<div class="row">
-					<div class="col s12">
-					  <div class="card">
-						<div class="card-content">
-						  <span class="card-title">Card Title</span>
-						  <p>I am a very simple card. I am good at containing small bits of information.
-						  I am convenient because I require little markup to use effectively.</p>
-						</div>
-					  </div>
-					</div>
-			</div>
 		<header class="texto_principal">
 			<h1>Encontre aqui seu Pókemon</h1>
 		</header>
@@ -38,27 +27,52 @@
 				<input type="text" required placeholder="Digite a Cidade" class="cid_consul">
 			</div>
 			<div class="col s1">
-				<!--  PULLSE !!-->
-				<a class="btn-floating btn-large waves-effect waves-light blue " id="pesquisa_pokemon"><i
+				<a class="btn-floating btn-large blue " id="pesquisa_pokemon"><i
 						class="material-icons">search</i></a>
 			</div>
 		</div>
 
-		<div class="conteudo">
-
-			<h3>A temperatura da cidade é de: <span id="temp_cidade"></span>.</h3>
-			<h3>Clima da cidade é: <span id="chuva_cidade"></span></h3>
-
-			<h3>O pokémon sortedo foi: <span id="pok_escolhido"></span><img id="img_pok_front" /> <img
-					id="img_pok_back" /></h3>
-
+		<div class="row conteudo">
+			<div class="col s12">
+				<div class="card">
+					<div class="card-content">
+						<h4>A temperatura da cidade é de: <span id="temp_cidade"></span>.</h4>
+						<h4>Clima da cidade é: <span id="chuva_cidade"></span></h4>
+						<h4>O pokémon sortedo foi: <span id="pok_escolhido"></span></h4>
+						<div class="row">
+							<div class="col s6">
+								<img id="img_pok_front" />
+							</div>
+							<div class="col s6">
+								<img id="img_pok_back" />
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
-		<div class="center">
-			<img src="img/spinner.gif" alt="Spinner" id="spinner" />
-			<p id="erro">Ocorreu um erro! Verifique se a cidade digitada existe e tente novamente!</p>
+		<p class="center"><img src="img/spinner.gif" alt="Spinner" id="spinner" /></p>
+
+		<div class="center" id="erro">
+			<div class="card">
+				<div class="card-content">
+					<p id="btn-floating btn-small waves-effect waves-light red"><i
+							class="material-icons">error_outline</i> Ocorreu um erro! Verifique se a cidade digitada
+						existe e tente novamente!</p>
+				</div>
+			</div>
 		</div>
 
+		<div class="center" id="erro_pok">
+			<div class="card">
+				<div class="card-content">
+					<p id="btn-floating btn-small waves-effect waves-light red"><i
+							class="material-icons">error_outline</i> Ocorreu um erro ao carregar o pokémon! Tente
+						novamente mais tarde.</p>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<script src="js/jquery.js"></script>
