@@ -17,7 +17,7 @@ A aplicação desenvolvida foi proposta pela empresa ADTSys como um desafio para
 * E, no caso em que esteja chovendo na região um pokémon elétrico (electric) deve ser retornado, independente da temperatura.
 
 ## Executando a aplicação
-Foi desenvolvido uma aplicação web para realizar o objetivo proposto. 
+Foi desenvolvido uma aplicação web para realizar o objetivo proposto.
 Para executar a aplicação basta entrar no link: https://findmypokemonadtsys.herokuapp.com/index.html.
 
 Sua forma de usar é bem simples, basta digitar a cidade que deseja consultar e ir no botão de pesquisa ou finalizar com a tecla Enter, e então será impresso em tela as informações de Temperatura, se está chovendo ou não, e também o pokémon de acordo com o clima da sua respectiva cidade consultada.
@@ -31,3 +31,6 @@ As tecnologias utilizadas foram as seguintes:
 * Biblioteca jQuery
 * Framework Materialize
 * AJAX
+
+### Observação
+A aplicação foi disponibilizada na plataforma Heroku, para que dessa forma fique online e possa ser avaliada pela empresa ADTSys.
