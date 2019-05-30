@@ -33,4 +33,4 @@ As tecnologias utilizadas foram as seguintes:
 * AJAX
 
 ### Observação
-A aplicação foi disponibilizada na plataforma Heroku, para que dessa forma fique online e possa ser avaliada pela empresa ADTSys.
+A aplicação foi disponibilizada na plataforma Heroku, para que o sistema fique online e possa ser avaliado pela empresa ADTSys.
