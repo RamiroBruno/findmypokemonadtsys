@@ -5,7 +5,7 @@ A aplicação desenvolvida foi proposta pela empresa ADTSys como um desafio para
 2. Se está chovendo ou não;
 3. Nome do Pokémon de acordo com as regras.
 
-**As condições para retornar determinado pokémon são as seguintes:**
+**As condições para retornar o pokémon são as seguintes:**
 * Lugares onde a temperatura for menor (<) que 5ºC, deve-se retornar um pokémon de gelo (ice).
 * Lugares onde a temperatura estiver entre (>=) 5ºC e (<) 10ºC, deve-se retornar um pokémon do tipo água (water).
 * Lugares onde a temperatura estiver entre 12ºC e 15ºC, deve-se retornar um pokémon do tipo grama (grass).
